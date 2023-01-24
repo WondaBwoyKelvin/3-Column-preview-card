@@ -1,0 +1,160 @@
+      body {
+          margin: 0;
+          background-color: hsl(0, 0%, 95%);
+      }
+      
+      #car-details {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-top: 50px;
+      }
+      
+      .cars {
+          padding-top: 70px;
+          padding-left: 50px;
+          padding-right: 30px;
+          width: 230px;
+          height: 400px;
+      }
+      /* Font Styling */
+      
+      .cars h3 {
+          font-family: 'Big Shoulders Display', cursive;
+          font-size: 30px;
+          color: hsl(0, 0%, 95%);
+      }
+      
+      .cars p {
+          font-family: 'Lexend Deca', sans-serif;
+          padding: 15px 28px 20px 0;
+          font-size: 15px;
+          color: hsla(0, 0%, 100%, 0.75);
+      }
+      /* image styling */
+      
+      .image-container img {
+          width: 40px;
+      }
+      /* button styling */
+      
+      button {
+          margin-top: 30px;
+          border: none;
+          text-align: center;
+          padding: 10px 22px;
+          border-radius: 20px;
+      }
+      
+      button:hover {
+          background-color: transparent;
+          cursor: pointer;
+          border: 2px solid white;
+      }
+      /* individual Car styling */
+      
+      #car-1 {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+          background-color: hsl(31, 77%, 52%);
+      }
+      
+      #car-1 button {
+          color: hsl(31, 77%, 52%);
+      }
+      
+      #car-1 button:hover {
+          color: hsl(0, 0%, 95%);
+      }
+      
+      #car-2 {
+          background-color: hsl(184, 100%, 22%);
+      }
+      
+      #car-2 button {
+          color: hsl(184, 100%, 22%);
+      }
+      
+      #car-2 button:hover {
+          color: hsl(0, 0%, 95%);
+      }
+      
+      #car-3 {
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+          background-color: hsl(179, 100%, 13%);
+      }
+      
+      #car-3 button {
+          color: hsl(179, 100%, 13%);
+      }
+      
+      #car-3 button:hover {
+          color: hsl(0, 0%, 95%);
+      }
+      /* footer  */
+      
+      .attribution {
+          margin-top: 30px;
+          font-size: 11px;
+          text-align: center;
+      }
+      
+      .attribution a {
+          color: hsl(228, 45%, 44%);
+      }
+      /* Media Queries */
+      
+      @media only screen and (max-width:375px) {
+          #car-details {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              margin-top: 50px;
+              flex-wrap: wrap;
+          }
+          .cars {
+              padding-top: 8px;
+              padding-left: 13px;
+              width: 200px;
+              height: 300px;
+              margin: 0 auto;
+              height: 230px;
+              width: 130px;
+          }
+          .car p {
+              padding: 10px 8px 20px 0;
+          }
+          .image-container img {
+              padding-top: 20px;
+              width: 30px;
+          }
+          .cars h3 {
+              margin-top: 5px;
+              font-size: 20px;
+              padding-left: 10px;
+              margin-bottom: 0;
+          }
+          .cars p {
+              font-size: 10px;
+              margin-top: 5px;
+              padding: 5px 1px 0 5px;
+          }
+          #car-1 {
+              border-bottom-left-radius: 0;
+              border-top-left-radius: 4px;
+              border-top-right-radius: 4px;
+          }
+          #car-3 {
+              border-top-right-radius: 0px;
+              border-bottom-right-radius: 10px;
+              border-bottom-left-radius: 10px;
+          }
+          button {
+              margin-left: 10px;
+              margin-top: 8px;
+              padding: 7px 15px;
+              font-size: 10 px;
+          }
+      }
